@@ -1,0 +1,5 @@
+<form method="post" action="{% url 'send_image' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="new_file" accept="image/jpg,image/jpeg,image/png,image/bmp" />
+    <input type="submit" value="提交"/>
+</form>

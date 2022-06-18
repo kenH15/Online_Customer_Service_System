@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <a href="manage_staff" class="manage_staff_button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">管理客服人员</button>
+                </a>
+
+                <a href="manage_robot" class="manage_robot_button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">设置自动回复机器人</button>
+                </a>
+
+                <a href="manage_answer" class="manage_answer_button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">设置快捷回复</button>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
